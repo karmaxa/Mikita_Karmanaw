@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOW-TO: Программа на Python, Часть 1</title>
+    <style>
+        body{
+            max-width:800px;
+        }
+        .logo{
+            float:right;
+        }
+        .icon{
+            width: 40px;
+            height: 40px;
+        }
+        .icon:hover{
+            background-color:rgb(155, 184, 240);
+        }
+        #leftarrow{
+            float:left;
+        }
+        #upperarrow{
+            margin-left:340px;
+        }
+        #rightarrow{
+            float:right;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="icon.png" alt="HOW-TO: Программа на Python" title="HOW-TO: Программа на Python" class="logo">
+    <h1>HOW-TO: Программа на Python, Часть 1</h1>
+    <ul>
+        <li><em>Программа на Python — часть 1</em></li>
+        <li><em><a href="page2.html">Программа на Python — часть 2</a></em></li>
+        <li><em><a href="page3.html">Программа на Python — часть 3</a></em></li>
+    </ul>
+    <h2>Содержание</h2>
+    <h3>HOW-TO: Программа на Python, Часть 1</h3>
+    <ul>
+        <li><a href="#firststep">Наша первая программа</a></li>
+        <li><a href="#forcycle">Пример цикла For</a></li>
+    </ul>
+    <p>Из множества существующих языков программирования Python — один из самых лёгких
+        в изучении. Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился.
+        Хотя Python входит в состав большинства дистрибутивов Linux, на него часто не
+        обращают внимания при выборе языка для изучения. В этой статье мы рассмотрим
+        создание консольных приложений, а в следующей — программирование графических
+        интерфейсов (<ins>GUI</ins>). Давайте создадим простую программу прямо сейчас.</p>
+    <h2 id="firststep">Наша первая программа</h2>
+    <p>Наберём код в текстовом редакторе (например, в <strong>gedit</strong>). Потом мы разберёмся, что делает
+        каждая строка и пойдём дальше.</p>
+        <p>Введите эти 4 строки:</p>
+        <br>
+        <p><code>#!/usr/bin/env python<br>
+            print 'Hello. I am a python program.'<br>
+            name = raw_input("What is your name?")<br>
+            print "Hello there, " + name + "!"</code></p>
+        <p>Это всё. Сохраните файл как <strong>hello.py</strong> в любом месте. Я предлагаю сохранить его в папке
+            <strong>python_examples</strong> в домашнем каталоге. Этот пример показывает, как просто написать
+            программу на Python. Для запуска программы нужно сделать её файл исполняемым. Для
+            этого введите в терминале<br><br>
+        <em><strong><ins><code>chmod +x hello.py</code></ins></strong></em>
+        <br><br>Вот и всё.</p>
+
+        <h2 id="forcycle">Пример цикла For</h2>
+        <p>
+            Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый
+редактор и наберите следующую программу: <br><br><code>
+        #!/usr/bin/env python<br>
+        for cntr in range(0,10):<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;print cntr</code><br><br>
+        <em>Не забудьте поставить символ табуляции перед строкой «print cntr».</em> Это важно. В
+Python для указания на блоки кода используются не круглые «(» и фигурные «{» скобки
+как в других языках программирования, а отступы.
+        </p>
+        <a href="blank.html">
+            <svg class="icon" viewBox="0 0 512 512" id="leftarrow">
+                <title>Предыдущая страница</title>
+                <g>
+                    <g>
+                        <polygon fill="#6E83B7" points="10,256 210,406 210,326 366,326 366,186 210,186 210,106 		"/>
+                    </g>
+                    <g>
+                        <rect x="394" y="186" fill="#6E83B7" width="40" height="140"/>
+                    </g>
+                    <g>
+                        <rect x="462" y="186" fill="#6E83B7" width="40" height="140"/>
+                    </g>
+                </g>
+            </svg>
+        </a>
+        <a href="#">
+            <svg class="icon" viewBox="0 0 512 512" id="upperarrow">
+                <title>Наверх</title>
+                <g>
+                    <g>
+                        <polygon fill="#6E83B7" points="256,10 106,210 186,210 186,366 326,366 326,210 406,210 		"/>
+                    </g>
+                    <g>
+                        <rect x="186" y="394" fill="#6E83B7" width="140" height="40"/>
+                    </g>
+                    <g>
+                        <rect x="186" y="462" fill="#6E83B7" width="140" height="40"/>
+                    </g>
+                </g>
+            </svg>
+        </a>
+        <a href="page2.html">
+            <svg class="icon" viewBox="0 0 512 512" id="rightarrow">
+                <title>Следующая страница</title>
+                <g>
+                    <g>
+                        <polygon fill="#6E83B7" points="502,256 302,106 302,186 146,186 146,326 302,326 302,406 		"/>
+                    </g>
+                    <g>
+                        <rect x="78" y="186" fill="#6E83B7" width="40" height="140"/>
+                    </g>
+                    <g>
+                        <rect x="10" y="186" fill="#6E83B7" width="40" height="140"/>
+                    </g>
+                </g>
+            </svg>
+        </a>
+</body>
+</html>
