@@ -1,0 +1,16 @@
+body{
+    max-width: 800px;
+}
+.hat{
+    text-align: right;
+}
+.text{
+    text-indent: 40px;
+    font-family: 'segoe script', cursive;
+}
+.inv{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: x-large
+}   
+    
