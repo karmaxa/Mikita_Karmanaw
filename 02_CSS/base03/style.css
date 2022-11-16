@@ -1,0 +1,48 @@
+body{
+    max-width:fit-content;
+}
+#navi{
+    position:fixed;
+    background-color: #cdcdcd;
+    width:15em;
+    margin-right: 0;
+    display: inline-block;
+    z-index: 2;
+}
+.left{
+    position: fixed;
+    bottom:0px;
+    height:400em;
+    width:15em;
+    margin-bottom: 0;
+    display: inline-block;
+    background-color: #dcdcdc;
+    z-index: 1;
+}
+.article{
+    position:relative;
+    left: 15em;
+    display: inline-block;
+    width:85%;
+    height: fit-content;
+    background-color: #abacac;
+    margin-left: 0;
+    margin-bottom: .2em;
+    z-index:1
+}
+.pic{
+    float: right;
+    width: 10%;
+    height: 10%;
+    margin-right: .2em;
+    margin-bottom: .2em;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #cdcdcd;
+    display: inline-block;
+    width:100%;
+    z-index: 3;
+}
