@@ -1,0 +1,20 @@
+ul{
+    width: 350px;
+    list-style-type: upper-roman;
+    font-weight: 400;
+}
+li.bold{
+    font-weight: bold;
+}
+ul.smal{
+    list-style: lower-roman;
+}
+div{
+    font-family: monospace;
+    line-height: 15px;
+    width: 450px;
+    background-color: black;
+    color: green;
+    max-height: 60px;
+    overflow: auto;
+}
