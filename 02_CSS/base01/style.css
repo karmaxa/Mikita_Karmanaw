@@ -1,0 +1,34 @@
+div{
+    width: 140px;
+    height: 194px;
+    display: inline-block;
+    background-image: url(sprite.png);
+}
+.card8{
+    background-position-x: 142px;
+    background-position-y: 1383px;
+}
+.cardq{
+    background-position-x: 0px;
+    background-position-y: 787px;
+    position: relative;
+    right: 40px;
+}
+.card9{
+    background-position-x: 283px;
+    background-position-y: 1186px;
+    position: relative;
+    right: 80px;
+}
+.carda{
+    background-position-x: 428px;
+    background-position-y: 391px;
+    position: relative;
+    right: 120px;
+}
+.cardj{
+    background-position-x: 0px;
+    background-position-y: 193px;
+    position: relative;
+    right: 160px;
+}
