@@ -7,17 +7,17 @@ body{
     width:15em;
     margin-right: 0;
     display: inline-block;
-    z-index: 2;
+    z-index: 3;
 }
 .left{
     position: fixed;
     bottom:0px;
-    height:400em;
+    height:10em;
     width:15em;
     margin-bottom: 0;
     display: inline-block;
     background-color: #dcdcdc;
-    z-index: 1;
+    z-index: 2;
 }
 .article{
     position:relative;
@@ -44,5 +44,5 @@ body{
     background-color: #cdcdcd;
     display: inline-block;
     width:100%;
-    z-index: 3;
+    z-index: 4;
 }
