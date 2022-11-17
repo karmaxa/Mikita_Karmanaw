@@ -2,12 +2,13 @@ body{
     max-width:fit-content;
 }
 #navi{
-    position:fixed;
+    /*position:fixed;*/
     background-color: #cdcdcd;
     width:15em;
     margin-right: 0;
-    display: inline-block;
+    display: block;
     z-index: 3;
+    float:left
 }
 .left{
     position: fixed;
@@ -20,7 +21,7 @@ body{
     z-index: 2;
 }
 .article{
-    position:relative;
+    /*position:relative;*/
     left: 15em;
     display: inline-block;
     width:85%;
